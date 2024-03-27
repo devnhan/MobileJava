@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#333</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btn_buy">#EFE3C8</color>
+    <color name="button_active">#D3B398</color>
+    <color name="add_item">#3cb46e</color>
+    <color name="remove_item">#c73c51</color>
+    <color name="fix_item">#0007e6</color>
+</resources>

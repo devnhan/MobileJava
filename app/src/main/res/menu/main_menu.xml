@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/package1"
+            android:title="Product" />
+        <item
+            android:id="@+id/nav_brand"
+            android:icon="@drawable/branding"
+            android:title="Brand" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/categories"
+            android:title="Categories" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/baseline_share_24"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Log Out" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/banner_login"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="205dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="96dp"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        android:text="Please enter your login to sign."
+        android:textColor="#888"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/border_edittext_login"
+        android:hint="Email"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:textColor="#333"/>
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_edittext_login"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="Login"
+        android:layout_marginTop="70dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtQuenPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:text="Forgot Password ?"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtDangKy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="Register"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

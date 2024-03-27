@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/headphone"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/txtDangKy"
+        android:layout_width="205dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="92dp"
+        android:text="Register"
+        android:textColor="#333"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Please enter your register."
+        android:textColor="#888"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edtNhapUser"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/border_edittext_login"
+        android:hint="Username"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#333"/>
+
+    <EditText
+        android:id="@+id/edtNhapEmail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_edittext_login"
+        android:hint="email"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#333"/>
+
+    <EditText
+        android:id="@+id/edtNhapPass"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_edittext_login"
+        android:hint="Password"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="#333"/>
+
+    <EditText
+        android:id="@+id/edtXacNhanPass"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_edittext_login"
+        android:hint="Confirm password"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="#333"/>
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Đăng Ký"/>
+
+    <TextView
+        android:id="@+id/txtDaCoTaiKhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back to sign in"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#6a49ef"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

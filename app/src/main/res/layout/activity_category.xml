@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/headphone10">
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Thêm Danh Mục Sản Phẩm"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="222dp"
+        android:textStyle="bold"
+        android:elevation="10dp"
+        android:hint="Tên danh mục" />
+
+    <Button
+        android:id="@+id/buttonAddCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCategoryName"
+        android:layout_marginTop="46dp"
+        android:layout_centerHorizontal="true"
+        android:text="Thêm" />
+
+</RelativeLayout>
